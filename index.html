@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <html lang="en">
+       <!-- Include Font Awesome CSS file -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-dyuz70fEhARhwEG3q3Zb/VrZMHPe+xjJYr3Xv3x1B4sA/xE6FZZoQ0v/vO8Rw6hqNxU6dF/R9XvX8yAfuQ0I2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    
+     
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Font Awesome libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta charset="UTF-8">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    </head>
+  <body>
+    <div id="supermain">
+    <div class="main">
+     
+      <button id="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon d-none"></i>
+      </button>
+      <h1>Metric/Imperial Unit Conversion</h1>
+      <div id="main-btn">
+        
+      
+        <input id="display-input" type="number" placeholder="20" >
+
+        <button id="convert-btn">Convert</button>
+      </div>
+    </div>
+
+    <div class="main-length">
+      <h2 class="h2p" >Length (Meter/Feet)</h2>
+      <p class="paraps">
+        <span class="input-display paraps" >20</span> meters =
+        <span id="cal-feet" class="paraps">65.616 </span> feet |
+        <span class="input-display paraps" >20</span> feet =
+        <span id="cal-meter" class="paraps">6.096 </span> meters
+      </p>
+    </div>
+
+    <div class="main-length">
+      <h2 class="h2p" >Volume (Liters/Gallons)</h2>
+      <p class="paraps">
+        <span class="input-display paraps" >20</span> liters =
+        <span id="cal-gallons" class="paraps">5.284</span> gallons |
+        <span class="input-display paraps" >20</span> gallons =
+        <span id="cal-liter" class="paraps">75.708 </span> liters
+      </p>
+    </div>
+    <div class="main-length">
+      <h2 class="h2p" >Mass (Kilograms/Pounds)</h2>
+      <p class="paraps">
+        <span class="input-display paraps" >20</span> kilos =
+        <span id="cal-pound" class="paraps"> 44.092</span> pounds |
+        <span class="input-display paraps" >20</span> pounds =
+        <span id="cal-kilo" class="paraps"> 9.072 </span> kilos
+      </p>
+    </div>
+  </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
